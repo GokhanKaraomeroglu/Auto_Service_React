@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import Homepage from "../pages/Homepage";
 import Navbar from "../components/Navbar";
+import NavbarTail from "../components/NavbarTail";
 import Footer from "../components/Footer";
 
 // import Login from "../pages/Login/Login";
@@ -29,7 +30,7 @@ function AppRouter() {
 
   return (
     <BrowserRouter>
-		<Navbar/>
+		<NavbarTail/>
       <Routes>
         {/* <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} /> */}
