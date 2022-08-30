@@ -43,7 +43,7 @@ function Footer() {
         <div className="grid grid-cols-2 gap-1 row-gap-8 lg:col-span-4 md:grid-cols-4">
           <div>
             <p className="font-semibold tracking-wide text-gray-300">
-              Hizmetlerimiz
+              Hizmetler
             </p>
             <ul className="mt-2 space-y-2">
               <li>
@@ -82,7 +82,7 @@ function Footer() {
           </div>
           <div>
             <p className="font-semibold tracking-wide text-gray-300">
-              Bölümler
+              Servis
             </p>
             <ul className="mt-2 space-y-2">
               <li>
@@ -98,7 +98,7 @@ function Footer() {
                   href="/"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Oto Elektrik
+                  Mekanik Aksam
                 </a>
               </li>
               <li>
@@ -117,14 +117,14 @@ function Footer() {
                   Boya
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
                   href="/"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Portfolio
+                  Oto Elektrik
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
           <div>
@@ -204,14 +204,14 @@ function Footer() {
               <li>
 							<p className="mr-1 text-gray-300">Adres:</p>
                 <a
-                  href="https://www.google.com/maps"
+                  href="https://goo.gl/maps/wn6kEtJ3Li96Vmvu7"
 									target="_blank"
 									rel="noopener noreferrer"
 									aria-label="Our address"
 									title="Our address"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Seyrantepe Mahallesi, Oğuzeli Sokak 12/A 34418 Kağıthane/İstanbul
+                  Aytekin Sk. No:29, 34418 Kâğıthane/İstanbul
                 </a>
               </li>
               {/* <li>

@@ -40,7 +40,7 @@ const solutions = [
     icon: SparklesIcon,
   },
   {
-    name: 'Elektrik',
+    name: 'Oto Elektrik',
     description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
     href: '#',
     icon: ArrowPathIcon,
