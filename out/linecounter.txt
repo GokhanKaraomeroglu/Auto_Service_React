@@ -1,0 +1,66 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-08-31 00:50:04
+count workspace : /Users/hkn/Desktop/auto_service_react
+total files : 42
+total code lines : 31801
+total comment lines : 80
+total blank lines : 7392
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            934|             37|             87|    2.9|
+   |           .css|             15|             14|              2|  0.047|
+   |          .json|          28873|              0|              5|     91|
+   |               |             19|              1|              5|  0.060|
+   |            .md|             22|              4|             16|  0.069|
+   |          .lock|           1915|              0|           7277|    6.0|
+   |           .txt|              3|              1|              0| 0.0094|
+   |          .html|             20|             23|              0|  0.063|
+   -------------------------------------------------------------------------
+.gitignore, code is 19, comment is 1, blank is 5.
+package-lock.json, code is 28805, comment is 0, blank is 2.
+package.json, code is 43, comment is 0, blank is 3.
+postcss.config.js, code is 6, comment is 0, blank is 0.
+public/favicon.ico, it is a binary file.
+public/index.html, code is 20, comment is 23, blank is 0.
+public/logo192.png, it is a binary file.
+public/logo512.png, it is a binary file.
+public/manifest.json, code is 25, comment is 0, blank is 0.
+public/robots.txt, code is 3, comment is 1, blank is 0.
+README.md, code is 22, comment is 4, blank is 16.
+src/App.css, code is 0, comment is 14, blank is 1.
+src/App.js, code is 8, comment is 0, blank is 2.
+src/assets/Logo.png, it is a binary file.
+src/components/Footer.js, code is 250, comment is 14, blank is 4.
+src/components/Navbar.js, code is 47, comment is 0, blank is 2.
+src/components/NavbarTail.js, code is 330, comment is 8, blank is 14.
+src/index.css, code is 15, comment is 0, blank is 1.
+src/index.js, code is 12, comment is 3, blank is 2.
+src/pages/about/About.js, code is 7, comment is 0, blank is 2.
+src/pages/about/Admin.js, code is 7, comment is 0, blank is 2.
+src/pages/about/Teknik.js, code is 7, comment is 0, blank is 2.
+src/pages/about/Unalusta.js, code is 7, comment is 0, blank is 2.
+src/pages/contact/Contact.js, code is 7, comment is 0, blank is 2.
+src/pages/hizmetler/Accident.js, code is 7, comment is 0, blank is 2.
+src/pages/hizmetler/Insurance.js, code is 7, comment is 0, blank is 2.
+src/pages/hizmetler/Maintenance.js, code is 7, comment is 0, blank is 2.
+src/pages/hizmetler/Periodic.js, code is 7, comment is 0, blank is 2.
+src/pages/Homepage.js, code is 87, comment is 1, blank is 8.
+src/pages/Invoice.js, code is 7, comment is 0, blank is 2.
+src/pages/Login.js, code is 7, comment is 0, blank is 2.
+src/pages/Record.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Boya.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Elektrik.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Kaborta.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Mekanik.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Motor.js, code is 7, comment is 0, blank is 2.
+src/reportWebVitals.js, code is 12, comment is 0, blank is 1.
+src/router/AppRouter.js, code is 53, comment is 6, blank is 20.
+src/setupTests.js, code is 1, comment is 4, blank is 0.
+tailwind.config.js, code is 9, comment is 1, blank is 0.
+yarn.lock, code is 1915, comment is 0, blank is 7277.
+===============================================================================
