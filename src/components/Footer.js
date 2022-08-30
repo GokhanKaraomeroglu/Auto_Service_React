@@ -87,7 +87,7 @@ function Footer() {
             <ul className="mt-2 space-y-2">
               <li>
                 <a
-                  href="/"
+                  href="/motor"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Motor
@@ -95,7 +95,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/mekanik"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Mekanik Aksam
@@ -103,7 +103,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/kaborta"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Kaborta
@@ -111,7 +111,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/boya"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Boya
@@ -119,7 +119,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/elektrik"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Oto Elektrik
@@ -134,7 +134,7 @@ function Footer() {
             <ul className="mt-2 space-y-2">
               <li>
                 <a
-                  href="/"
+                  href="/unalusta"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Ünal Usta
@@ -142,7 +142,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/admin"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Yönetim
@@ -150,7 +150,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/teknik"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Teknik Ekip
@@ -158,7 +158,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/about"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Hakkımızda
