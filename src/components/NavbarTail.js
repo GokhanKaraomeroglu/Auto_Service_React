@@ -1,4 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
+import React from "react";
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
@@ -6,80 +7,81 @@ import {
   Bars3Icon,
   BookmarkSquareIcon,
   CalendarIcon,
-  ChartBarIcon,
-  CursorArrowRaysIcon,
+	SparklesIcon,
+	Cog8ToothIcon,
+  WrenchIcon,
   LifebuoyIcon,
   PhoneIcon,
   PlayIcon,
   ShieldCheckIcon,
-  Squares2X2Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import Logo from '../assets/Logo.png'
 
 const solutions = [
   {
-    name: 'Analytics',
-    description: 'Get a better understanding of where your traffic is coming from.',
+    name: 'Motor',
+    description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
     href: '#',
-    icon: ChartBarIcon,
+    icon: Cog8ToothIcon,
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers in a more meaningful way.',
+    name: 'Mekanik Aksam',
+    description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
     href: '#',
-    icon: CursorArrowRaysIcon,
+    icon: WrenchIcon,
   },
-  { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
+  { name: 'Kaborta', description: "Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.", href: '#', icon: ShieldCheckIcon },
   {
-    name: 'Integrations',
-    description: "Connect with third-party tools that you're already using.",
+    name: 'Boya',
+    description: "Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.",
     href: '#',
-    icon: Squares2X2Icon,
+    icon: SparklesIcon,
   },
   {
-    name: 'Automations',
-    description: 'Build strategic funnels that will drive your customers to convert',
+    name: 'Elektrik',
+    description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
     href: '#',
     icon: ArrowPathIcon,
   },
 ]
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+  { name: 'Servis Kaydı', href: '#', icon: PlayIcon },
+  { name: 'Hemen Arayın', href: '#', icon: PhoneIcon },
 ]
 const resources = [
   {
-    name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
+    name: 'Periyodik Bakım',
+    description: 'Araçlarınızın periyodik bakımlarını uzman kadromuz ile yapmaktayız.',
     href: '#',
     icon: LifebuoyIcon,
   },
   {
-    name: 'Guides',
-    description: 'Learn how to maximize our platform to get the most out of it.',
+    name: 'Onarım',
+    description: 'Onarım yapmak için derin tecrübemizi ve yeteneğimizi kullanıyoruz.',
     href: '#',
     icon: BookmarkSquareIcon,
   },
   {
-    name: 'Events',
-    description: 'See what meet-ups and other events we might be planning near you.',
+    name: 'Kaza Sonrası',
+    description: 'Kaza sonrası araçlarınız emin ellerde.',
     href: '#',
     icon: CalendarIcon,
   },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
+  { name: 'Sigorta', description: 'Saygın tüm sigortalar ile anlaşmalı servis hizmeti.', href: '#', icon: ShieldCheckIcon },
 ]
 const recentPosts = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
+  { id: 1, name: 'Değer katan onarım.', href: '#' },
+  { id: 2, name: 'Koşulsuz müşteri memnuniyeti.', href: '#' },
+  { id: 3, name: 'Yıllardır devam eden tecrübe.', href: '#' },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function NavbarTail() {
   return (
     <Popover className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -89,7 +91,7 @@ export default function Example() {
               <span className="sr-only">Workflow</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                src={Logo}
                 alt=""
               />
             </a>
@@ -110,7 +112,7 @@ export default function Example() {
                       'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
-                    <span>Solutions</span>
+                    <span>Servis</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
@@ -166,12 +168,6 @@ export default function Example() {
               )}
             </Popover>
 
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Pricing
-            </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Docs
-            </a>
 
             <Popover className="relative">
               {({ open }) => (
@@ -182,7 +178,7 @@ export default function Example() {
                       'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
-                    <span>More</span>
+                    <span>Hizmetler</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
@@ -220,7 +216,7 @@ export default function Example() {
                         </div>
                         <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                           <div>
-                            <h3 className="text-base font-medium text-gray-500">Recent Posts</h3>
+                            <h3 className="text-base font-medium text-gray-500">Değerlerimiz</h3>
                             <ul role="list" className="mt-4 space-y-4">
                               {recentPosts.map((post) => (
                                 <li key={post.id} className="text-base truncate">
@@ -234,7 +230,7 @@ export default function Example() {
                           <div className="mt-5 text-sm">
                             <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
                               {' '}
-                              View all posts <span aria-hidden="true">&rarr;</span>
+                              Değerlerimiz Sayfası <span aria-hidden="true">&rarr;</span>
                             </a>
                           </div>
                         </div>
@@ -244,16 +240,25 @@ export default function Example() {
                 </>
               )}
             </Popover>
+						<a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Kayıt
+            </a>
+            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Fatura
+            </a>
+            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              İletişim
+            </a>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-              Sign in
+              Üye Girişi
             </a>
             <a
               href="#"
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
             >
-              Sign up
+              Üye Ol
             </a>
           </div>
         </div>
@@ -275,7 +280,7 @@ export default function Example() {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                    src={Logo}
                     alt="Workflow"
                   />
                 </div>
@@ -304,11 +309,13 @@ export default function Example() {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
+                  Kayıt
                 </a>
-
                 <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Docs
+                  Fatura
+                </a>
+                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  İletişim
                 </a>
                 {resources.map((item) => (
                   <a
@@ -325,12 +332,12 @@ export default function Example() {
                   href="#"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
-                  Sign up
+                  Üye Ol
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?{' '}
+                  Müşterimiz misiniz?{' '}
                   <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                    Sign in
+                    Üye Girişi
                   </a>
                 </p>
               </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 
-console.log('Homepage')
 
 function Homepage () {
 	return (
