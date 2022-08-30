@@ -25,6 +25,11 @@ import About from "../pages/about/About";
 import Admin from "../pages/about/Admin";
 import Teknik from "../pages/about/Teknik";
 
+import Record from "../pages/Record";
+import Invoice from "../pages/Invoice";
+import Contact from "../pages/contact/Contact";
+
+import Login from "../pages/Login";
 
 // import {Login, Register } from "../pages/LoginRegister";
 
@@ -58,7 +63,12 @@ function AppRouter() {
         <Route path="/about" element={<About /> } />
         <Route path="/teknik" element={<Teknik /> } />
         <Route path="/admin" element={<Admin /> } />
+
+        <Route path="/invoice" element={<Invoice /> } />
+        <Route path="/record" element={<Record /> } />
+        <Route path="/contact" element={<Contact /> } />
         
+        <Route path="/login" element={<Login /> } />
       
       </Routes>
 			<Footer/>
