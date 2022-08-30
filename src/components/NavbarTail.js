@@ -23,26 +23,26 @@ const solutions = [
   {
     name: 'Motor',
     description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
-    href: '#',
+    href: '/motor',
     icon: Cog8ToothIcon,
   },
   {
     name: 'Mekanik Aksam',
     description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
-    href: '#',
+    href: '/mekanik',
     icon: WrenchIcon,
   },
-  { name: 'Kaborta', description: "Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.", href: '#', icon: ShieldCheckIcon },
+  { name: 'Kaborta', description: "Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.", href: '/kaborta', icon: ShieldCheckIcon },
   {
     name: 'Boya',
     description: "Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.",
-    href: '#',
+    href: '/boya',
     icon: SparklesIcon,
   },
   {
     name: 'Oto Elektrik',
     description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
-    href: '#',
+    href: '/elektrik',
     icon: ArrowPathIcon,
   },
 ]
@@ -54,22 +54,22 @@ const resources = [
   {
     name: 'Periyodik Bakım',
     description: 'Araçlarınızın periyodik bakımlarını uzman kadromuz ile yapmaktayız.',
-    href: '#',
+    href: '/periodic',
     icon: LifebuoyIcon,
   },
   {
     name: 'Onarım',
     description: 'Onarım yapmak için derin tecrübemizi ve yeteneğimizi kullanıyoruz.',
-    href: '#',
+    href: '/maintenance',
     icon: BookmarkSquareIcon,
   },
   {
     name: 'Kaza Sonrası',
     description: 'Kaza sonrası araçlarınız emin ellerde.',
-    href: '#',
+    href: '/accident',
     icon: CalendarIcon,
   },
-  { name: 'Sigorta', description: 'Saygın tüm sigortalar ile anlaşmalı servis hizmeti.', href: '#', icon: ShieldCheckIcon },
+  { name: 'Sigorta', description: 'Saygın tüm sigortalar ile anlaşmalı servis hizmeti.', href: '/insurance', icon: ShieldCheckIcon },
 ]
 const recentPosts = [
   { id: 1, name: 'Değer katan onarım.', href: '#' },
