@@ -48,7 +48,7 @@ function Footer() {
             <ul className="mt-2 space-y-2">
               <li>
                 <a
-                  href="/"
+                  href="/periodic"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                  Peryodik Bakım
@@ -56,7 +56,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/maintenance"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Onarım
@@ -64,20 +64,20 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/accident"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Kaza Sonrası İşlemler
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
-                  href="/"
+                  href="/insurance"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  References
+                  Sigorta
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
           <div>

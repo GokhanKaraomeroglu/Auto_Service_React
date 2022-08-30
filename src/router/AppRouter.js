@@ -9,14 +9,10 @@ import Navbar from "../components/Navbar";
 import NavbarTail from "../components/NavbarTail";
 import Footer from "../components/Footer";
 
-// import Login from "../pages/Login/Login";
-// import BeefPage from "../pages/Barns/BeefCattle/BeefPage";
-// import DairyPage from "../pages/Barns/DairyCattle/DairyPage";
-// import GoatPage from "../pages/Barns/Goat/GoatPage";
-// import SheepPage from "../pages/Barns/Sheep/SheepPage";
-// import HorsePage from "../pages/Barns/Horse/HorsePage";
-// import PoultryPage from "../pages/Barns/Poultry/PoultryPage";
-// import Dashboard from "../pages/Dashboard";
+import Periodic from "../pages/hizmetler/Periodic";
+import Maintenance from "../pages/hizmetler/Maintenance";
+import Accident from "../pages/hizmetler/Accident";
+
 
 // import {Login, Register } from "../pages/LoginRegister";
 
@@ -36,15 +32,15 @@ function AppRouter() {
         <Route path="/register" element={<Register/>} /> */}
 
         <Route path="/" element={<Homepage /> } />
-        {/* <Route path="/homepage" element={<Dashboard /> } />
-        <Route path="/beefPage" element={<BeefPage /> } />
-        <Route path="/dairyPage" element={<DairyPage /> } />
+        <Route path="/periodic" element={<Periodic /> } />
+        <Route path="/maintenance" element={<Maintenance /> } />
+        <Route path="/accident" element={<Accident /> } />
         <Route path="/goatPage" element={<GoatPage /> } />
         <Route path="/sheepPage" element={<SheepPage /> } />
         <Route path="/horsePage" element={<HorsePage /> } />
         <Route path="/poultryPage" element={<PoultryPage /> } />
         <Route path="about" element={<About />} /> */}
-        {/* <Route path="/auth" element={<SignUp />} /> */}
+        {/* <Route path="/auth" element={<SignUp />} />
       </Routes>
 			<Footer/>
       </BrowserRouter>
