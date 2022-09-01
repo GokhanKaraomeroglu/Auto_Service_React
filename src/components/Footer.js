@@ -182,12 +182,12 @@ function Footer() {
               <li>
 								<p className="mr-1 text-gray-300">Tel:</p>
                 <a
-                  href="tel:555-555-5555"
+                  href="tel:0532-688-9335"
               		aria-label="Our phone"
               		title="Our phone"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  555 555 55 55
+                  0532 688 93 35
                 </a>
               </li>
               <li>
