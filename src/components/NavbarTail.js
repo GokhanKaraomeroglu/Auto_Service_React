@@ -306,7 +306,7 @@ export default function NavbarTail() {
                         <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                           <div>
                             <h3 className="text-base font-medium text-gray-500">Değerlerimiz</h3>
-                            <ul role="list" className="mt-4 space-y-4">
+                            <ul className="mt-4 space-y-4">
                               {recentPosts.map((post) => (
                                 <li key={post.id} className="text-base truncate">
                                   <a href={post.href} className="font-medium text-gray-900 hover:text-gray-700">
@@ -317,7 +317,7 @@ export default function NavbarTail() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                            <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">
                               {' '}
                               Değerlerimiz Sayfası <span aria-hidden="true">&rarr;</span>
                             </a>
@@ -382,6 +382,16 @@ export default function NavbarTail() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
+                  {aboutUs.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                    >
+                      <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                      <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                    </a>
+                  ))}
                   {solutions.map((item) => (
                     <a
                       key={item.name}
@@ -392,33 +402,35 @@ export default function NavbarTail() {
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>
                   ))}
+                  {resources.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                  >
+                    <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                    <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                  </a>
+                ))}
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/record" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Kayıt
                 </a>
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/invoice" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Fatura
                 </a>
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/contact" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   İletişim
                 </a>
-                {resources.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    {item.name}
-                  </a>
-                ))}
+                
               </div>
               <div>
                 <a
-                  href="#"
+                  href="/login"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Yönetici Girişi

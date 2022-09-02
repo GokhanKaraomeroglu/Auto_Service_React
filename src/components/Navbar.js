@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand text-danger" href="#">
+        <a className="navbar-brand text-danger" href="/">
           Önemli Oto Servisi
         </a>
         <button
