@@ -1,6 +1,11 @@
 import React from 'react'
+import './Carousel.css'
 
-const images = ['https://images.unsplash.com/photo-1506501139174-099022df5260?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80', 'https://images.unsplash.com/photo-1523438097201-512ae7d59c44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80', 'https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80']
+const images = [
+	'https://picsum.photos/id/1071/1200/300', 
+	'https://picsum.photos/id/1072/1200/300', 
+	'https://picsum.photos/id/1070/1200/300'
+]
 // images must be an array of urls , if using Next JS this could something like
 // const images = ['/img/img1.png', '/img/img2.png', '/img/img3.png']
 // images must be an array of urls , if using Next JS this could something like
@@ -83,7 +88,7 @@ function Carousel() {
   // Finally the image itself will be 100% of a parent div. Outer div is
   // set with position relative, so we can place our cotrol buttons using
   // absolute positioning on each side of the image.
-    <div className="p-12 flex justify-center w-screen md:w-1/2 items-center">
+    <div className="p-12 flex justify-center w-screen items-center">
       <div className="relative w-full">
         <div className="carousel">
           {sliderControl(true)}

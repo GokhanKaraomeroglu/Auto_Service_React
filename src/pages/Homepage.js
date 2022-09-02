@@ -10,7 +10,7 @@ import Pictures from '../components/Pictures'
 function Homepage () {
 	return (
 	<div>
-		{/* <Carousel/>	 */}
+		<Carousel/>	
 		<AboutUsSection/>	
 		<SectionsCards/>	
 		<ServicesCards/>	
