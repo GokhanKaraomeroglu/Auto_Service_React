@@ -6,11 +6,6 @@ const images = [
 	'https://picsum.photos/id/1072/1200/300', 
 	'https://picsum.photos/id/1070/1200/300'
 ]
-// images must be an array of urls , if using Next JS this could something like
-// const images = ['/img/img1.png', '/img/img2.png', '/img/img3.png']
-// images must be an array of urls , if using Next JS this could something like
-// const images = ['/img/img1.png', '/img/img2.png', '/img/img3.png']
-
 
 function Carousel() {
   // We will start by storing the index of the current image in the state.
@@ -88,13 +83,14 @@ function Carousel() {
   // Finally the image itself will be 100% of a parent div. Outer div is
   // set with position relative, so we can place our cotrol buttons using
   // absolute positioning on each side of the image.
-    <div className="p-12 flex justify-center w-screen items-center">
+    <div className="p-2 flex justify-center w-screen items-center">
       <div className="relative w-full">
         <div className="carousel">
           {sliderControl(true)}
           {images.map((img, i) => (
             <div className="w-full flex-shrink-0" key={img} ref={refs[i]}>
-              <img src={img} className="w-full object-contain" />
+							<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500 flex justify-center"> Önemli Oto Servisi </h1>
+              <img src={img} className="w-full object-contain rounded" alt='Önemli Oto Servisi' />
             </div>
           ))}
           {sliderControl()}
@@ -103,35 +99,4 @@ function Carousel() {
     </div>
   );
 };
-
-
-			
-			{/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-			<div className="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
-			<div className="carousel-inner">
-				<div className="carousel-item active">
-					<img src="https://picsum.photos/id/1071/1200/300" className="d-block w-100" alt="..."/>
-				</div>
-				<div className="carousel-item">
-					<img src="https://picsum.photos/id/1072/1200/300" className="d-block w-100" alt="..."/>
-				</div>
-				<div className="carousel-item">
-					<img src="https://picsum.photos/id/1070/1200/300" className="d-block w-100" alt="..."/>
-				</div>
-			</div>
-			<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-				<span className="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span className="visually-hidden">Previous</span>
-			</button>
-			<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-				<span className="carousel-control-next-icon" aria-hidden="true"></span>
-				<span className="visually-hidden">Next</span>
-			</button>
-		</div> */}
-	
-
 export default Carousel

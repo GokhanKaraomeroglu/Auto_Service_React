@@ -15,7 +15,7 @@ function Contact() {
 			<section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-      <iframe width="100%" height="100%" className="absolute inset-0"  title="map" style = {{frameBorder:"0", marginHeight:"0", marginWidth:"0", filter: 'grayscale(1)', filter: 'contrast(1.2)', filter: 'opacity(0.4)'}}  scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=41.0983779,29.002356&ie=UTF8&t=&z=14&iwloc=B&output=embed" ></iframe>
+      <iframe width="100%" height="100%" className="absolute inset-0"  title="map" style = {{frameBorder:"0", marginHeight:"0", marginWidth:"0", filter: 'grayscale(1) contrast(1.2) opacity(0.4)'}}  scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=41.0983779,29.002356&ie=UTF8&t=&z=14&iwloc=B&output=embed" ></iframe>
       <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADRES</h2>
