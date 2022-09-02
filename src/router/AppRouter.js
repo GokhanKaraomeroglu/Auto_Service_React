@@ -9,16 +9,16 @@ import Navbar from "../components/Navbar";
 import NavbarTail from "../components/NavbarTail";
 import Footer from "../components/Footer";
 
-import Periodic from "../pages/hizmetler/Periodic";
-import Maintenance from "../pages/hizmetler/Maintenance";
-import Accident from "../pages/hizmetler/Accident";
-import Insurance from "../pages/hizmetler/Insurance";
+import Periodic from "../pages/services/Periodic";
+import Maintenance from "../pages/services/Maintenance";
+import Accident from "../pages/services/Accident";
+import Insurance from "../pages/services/Insurance";
 
-import Motor from "../pages/servis/Motor";
-import Boya from "../pages/servis/Boya";
-import Mekanik from "../pages/servis/Mekanik";
-import Kaborta from "../pages/servis/Kaborta";
-import Elektrik from "../pages/servis/Elektrik";
+import Motor from "../pages/sections/Motor";
+import Boya from "../pages/sections/Boya";
+import Mekanik from "../pages/sections/Mekanik";
+import Kaborta from "../pages/sections/Kaborta";
+import Elektrik from "../pages/sections/Elektrik";
 
 import Unalusta from "../pages/about/Unalusta";
 import About from "../pages/about/About";

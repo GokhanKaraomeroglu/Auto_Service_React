@@ -1,5 +1,8 @@
 import React from 'react'
 
+import SectionsCards from '../components/SectionsCards'
+import ServicesCards from '../components/ServicesCards'
+
 
 function Homepage () {
 	return (
@@ -32,9 +35,10 @@ function Homepage () {
 			</button>
 		</div>
 	
-		<div className="container"> 			
+		<div className="container"> 	
+
 	
-		<div className="row mt-5">	
+		 <div className="row mt-5">	
 		
 			<div className="col-sm-6">		
 				<img src="https://picsum.photos/id/1072/600/400" className="w-100 img-thumbnail" alt="..."/>
@@ -46,7 +50,41 @@ function Homepage () {
 			</div> 										
 		</div> 		
 			
-											
+		<SectionsCards/>	
+		<ServicesCards/>	
+
+
+<div className="b-example-divider"></div>
+
+  <div className="b-example-divider"></div>
+
+		<div className="row mt-5">
+			<div className="col-sm-12 h4">Resimler</div>
+			<div className="col-sm">
+				<img src="https://picsum.photos/id/1072/400/300" alt="" className="w-100 img-thumbnail"/>
+			</div>
+			<div className="col-sm">
+				<img src="https://picsum.photos/id/514/400/300" alt="" className="w-100 img-thumbnail"/>
+			</div>
+			<div className="col-sm">
+				<img src="https://picsum.photos/id/605/400/300" alt="" className="w-100 img-thumbnail"/>
+			</div>
+			<div className="col-sm">
+				<img src="https://picsum.photos/id/133/400/300" alt="" className="w-100 img-thumbnail"/>
+			</div>
+			<div className="col-sm">
+				<img src="https://picsum.photos/id/111/400/300" alt="" className="w-100 img-thumbnail"/>
+			</div>
+	</div>
+	</div> 
+	</div> 
+	
+	)
+}
+
+export default Homepage
+
+{/*										
 <div className="row mt-3">
 <h2 className="pb-2 border-bottom text-secondary">Hizmetlerimiz</h2>
 <div className="col-sm-4 mt-3">
@@ -80,39 +118,8 @@ function Homepage () {
 			<a href="#" className="btn btn-primary">İncele</a>
 		</div>
 	</div>
-</div>
-
-</div>
-
-<div className="b-example-divider"></div>
-
-  <div className="b-example-divider"></div>
-
-		<div className="row mt-5">
-			<div className="col-sm-12 h4">Resimler</div>
-			<div className="col-sm">
-				<img src="https://picsum.photos/id/1072/400/300" alt="" className="w-100 img-thumbnail"/>
-			</div>
-			<div className="col-sm">
-				<img src="https://picsum.photos/id/514/400/300" alt="" className="w-100 img-thumbnail"/>
-			</div>
-			<div className="col-sm">
-				<img src="https://picsum.photos/id/605/400/300" alt="" className="w-100 img-thumbnail"/>
-			</div>
-			<div className="col-sm">
-				<img src="https://picsum.photos/id/133/400/300" alt="" className="w-100 img-thumbnail"/>
-			</div>
-			<div className="col-sm">
-				<img src="https://picsum.photos/id/111/400/300" alt="" className="w-100 img-thumbnail"/>
-			</div>
-	</div>
-	</div> 
-	</div> 
-	
-	)
-}
-
-export default Homepage
+</div>  
+</div> */}
 
 
 {/* <div className="container px-4 py-5" id="custom-cards">

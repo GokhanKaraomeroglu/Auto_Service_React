@@ -83,7 +83,7 @@ const resources = [
   },
   {
     name: 'Onarım',
-    description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktaır.',
+    description: 'Araçlarınızın onarımında yüksek kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik kullanılmaktadır.',
     href: '/maintenance',
     icon: BookmarkSquareIcon,
   },
@@ -201,7 +201,7 @@ export default function NavbarTail() {
                       'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
-                    <span>Servis</span>
+                    <span>Bölümler</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
