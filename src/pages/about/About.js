@@ -1,8 +1,12 @@
 import React from 'react'
+import AboutUsSection from '../../components/AboutUsSection'
 
 function About() {
 	return (
-		<div>Hakkımızda</div>
+		<div>
+			<AboutUsSection/>
+			
+		</div>
 	)
 }
 
