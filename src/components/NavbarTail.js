@@ -435,12 +435,12 @@ export default function NavbarTail() {
                 >
                   Yönetici Girişi
                 </a>
-                {/* <p className="mt-6 text-center text-base font-medium text-gray-500">
+                <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Müşterimiz misiniz?{' '}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                  Üye Girişi
+                  <a href="/login" className="text-indigo-600 hover:text-indigo-500">
+                  Müşteri Girişi
                   </a>
-                </p> */}
+                </p>
               </div>
             </div>
           </div>
