@@ -2,7 +2,7 @@ import React from 'react'
 
 function Login() {
 	return (
-		<div>Yönetici Girişi</div>
+		<div> Giriş </div>
 	)
 }
 

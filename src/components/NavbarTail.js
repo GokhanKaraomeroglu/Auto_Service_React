@@ -340,14 +340,15 @@ export default function NavbarTail() {
             </a>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            {/* <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-              Üye Girişi
+            {/* <a href="/login" 
+            className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+              Müşteri Girişi
             </a> */}
             <a
               href="/login"
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
             >
-              Yönetici Girişi
+              Giriş
             </a>
           </div>
         </div>
@@ -436,7 +437,7 @@ export default function NavbarTail() {
                   Yönetici Girişi
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Müşterimiz misiniz?{' '}
+                  Müşterimiz misiniz? {' '}
                   <a href="/login" className="text-indigo-600 hover:text-indigo-500">
                   Müşteri Girişi
                   </a>
