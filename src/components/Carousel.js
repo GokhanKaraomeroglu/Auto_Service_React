@@ -83,7 +83,9 @@ function Carousel() {
   // Finally the image itself will be 100% of a parent div. Outer div is
   // set with position relative, so we can place our cotrol buttons using
   // absolute positioning on each side of the image.
-    <div className="p-2 flex justify-center w-screen items-center">
+  <section className="text-gray-600 body-font">
+    <div className="container mx-auto flex px-2 py-12 md:flex-row flex-col items-center">
+    <div className="p-2 flex justify-center w-screen items-center ">
       <div className="relative w-full">
         <div className="carousel">
           {sliderControl(true)}
@@ -97,6 +99,8 @@ function Carousel() {
         </div>
       </div>
     </div>
+    </div>
+    </section>
   );
 };
 export default Carousel
