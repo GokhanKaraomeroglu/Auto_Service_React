@@ -5,6 +5,7 @@ import AboutUsSection from '../components/AboutUsSection'
 import SectionsCards from '../components/SectionsCards'
 import ServicesCards from '../components/ServicesCards'
 import Pictures from '../components/Pictures'
+import Testimonial from '../components/Testimonial'
 
 
 function Homepage () {
@@ -13,7 +14,8 @@ function Homepage () {
 		<Carousel/>	
 		<AboutUsSection/>	
 		<SectionsCards/>	
-		<ServicesCards/>	
+		<ServicesCards/>
+		<Testimonial/>	
 		<Pictures/>	
 	</div> 
 	
