@@ -84,16 +84,16 @@ function SectionsCards() {
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src="http://uludagcar.com/wp-content/uploads/2015/08/kaporta-boya-servisi-uludağ-car-araç-servisi-ankara-2.jpg"
-                alt="Kaborta ve Boya"
+                alt="Kaporta ve Boya"
               />
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
                 Önemli Oto
               </h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                Kaborta ve Boya
+                Kaporta ve Boya
               </h2>
               <p className="leading-relaxed text-base">
-                Uzman kaborta ustalarımızın ellerinde aracınız her zaman
+                Uzman kaporta ustalarımızın ellerinde aracınız her zaman
                 güvende.
               </p>
               <br />

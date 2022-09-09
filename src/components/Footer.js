@@ -103,10 +103,10 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/kaborta"
+                  href="/kaporta"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Kaborta
+                  Kaporta
                 </a>
               </li>
               <li>

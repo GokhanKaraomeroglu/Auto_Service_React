@@ -56,7 +56,7 @@ const solutions = [
     href: '/mekanik',
     icon: WrenchIcon,
   },
-  { name: 'Kaborta', description: "Uzman kabortacılarımızın elinde aracınız güvende.", href: '/kaborta', icon: ShieldCheckIcon },
+  { name: 'Kaporta', description: "Uzman kaportacılarımızın elinde aracınız güvende.", href: '/kaporta', icon: ShieldCheckIcon },
   {
     name: 'Boya',
     description: "Aracınızın güzel görünmesindeki en önemli faktör.",

@@ -55,7 +55,7 @@ src/pages/Login.js, code is 7, comment is 0, blank is 2.
 src/pages/Record.js, code is 7, comment is 0, blank is 2.
 src/pages/servis/Boya.js, code is 7, comment is 0, blank is 2.
 src/pages/servis/Elektrik.js, code is 7, comment is 0, blank is 2.
-src/pages/servis/Kaborta.js, code is 7, comment is 0, blank is 2.
+src/pages/servis/Kaporta.js, code is 7, comment is 0, blank is 2.
 src/pages/servis/Mekanik.js, code is 7, comment is 0, blank is 2.
 src/pages/servis/Motor.js, code is 7, comment is 0, blank is 2.
 src/reportWebVitals.js, code is 12, comment is 0, blank is 1.

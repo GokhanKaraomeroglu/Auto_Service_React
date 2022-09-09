@@ -1,18 +1,18 @@
 import React from 'react'
-import KabortaPic from "../../assets/Kaborta.jpg"
-import KabortaPic2 from "../../assets/Kaborta2.jpg"
+import KaportaPic from "../../assets/Kaporta.jpg"
+import KaportaPic2 from "../../assets/Kaporta2.jpg"
 
-function Kaborta() {
+function Kaporta() {
 	return (
 		<div>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-3 py-12 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Kaborta Bakım ve Onarımı <br className="hidden lg:inline-block" />
+              Kaporta Bakım ve Onarımı <br className="hidden lg:inline-block" />
             </h1>
             <p className="mb-8 leading-relaxed">
-              Sağlıklı bir kaborta aracınızı güvenli ve tasarruflu yapar. Profesyonel ekibimiz ile aracınızın motor bakım ve onarımlarını orjinal yedek parça kullanarak uygun fiyata yapmaktayız.
+              Sağlıklı bir kaporta aracınızı güvenli ve tasarruflu yapar. Profesyonel ekibimiz ile aracınızın motor bakım ve onarımlarını orjinal yedek parça kullanarak uygun fiyata yapmaktayız.
             </p>
             {/* <div className="flex justify-center">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
@@ -27,7 +27,7 @@ function Kaborta() {
             <img
               className="object-cover object-center rounded"
               alt="Motor"
-              src={KabortaPic}
+              src={KaportaPic}
             />
           </div>
         </div>
@@ -35,7 +35,7 @@ function Kaborta() {
 			<section class="text-gray-600 body-font"> */}
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded" alt="hero" src={KabortaPic2}/>
+      <img class="object-cover object-center rounded" alt="hero" src={KaportaPic2}/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Motor Bakımı {' '}
@@ -55,4 +55,4 @@ function Kaborta() {
 	)
 }
 
-export default Kaborta
+export default Kaporta

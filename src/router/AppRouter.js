@@ -17,7 +17,7 @@ import Insurance from "../pages/services/Insurance";
 import Motor from "../pages/sections/Motor";
 import Boya from "../pages/sections/Boya";
 import Mekanik from "../pages/sections/Mekanik";
-import Kaborta from "../pages/sections/Kaborta";
+import Kaporta from "../pages/sections/Kaporta";
 import Elektrik from "../pages/sections/Elektrik";
 
 import Unalusta from "../pages/about/Unalusta";
@@ -56,7 +56,7 @@ function AppRouter() {
         <Route path="/motor" element={<Motor /> } />
         <Route path="/boya" element={<Boya /> } />
         <Route path="/elektrik" element={<Elektrik /> } />
-        <Route path="/kaborta" element={<Kaborta /> } />
+        <Route path="/kaporta" element={<Kaporta /> } />
         <Route path="/mekanik" element={<Mekanik /> } />
         
         <Route path="/unalusta" element={<Unalusta /> } />
