@@ -41,93 +41,8 @@ function Footer() {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-1 row-gap-8 lg:col-span-4 md:grid-cols-4">
-          <div>
-            <p className="font-semibold tracking-wide text-gray-300">
-              Hizmetler
-            </p>
-            <ul className="mt-2 space-y-2">
-              <li>
-                <a
-                  href="/periodic"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                 Peryodik Bakım
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/maintenance"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Onarım
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/accident"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Kaza Sonrası İşlemler
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/insurance"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Sigorta
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="font-semibold tracking-wide text-gray-300">
-              Servis
-            </p>
-            <ul className="mt-2 space-y-2">
-              <li>
-                <a
-                  href="/motor"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Motor
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/mekanik"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Mekanik Aksam
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/kaporta"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Kaporta
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/boya"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Boya
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/elektrik"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Oto Elektrik
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
+
+        <div>
             <p className="font-semibold tracking-wide text-gray-300">
 							Hakkımızda
 							</p>
@@ -174,6 +89,95 @@ function Footer() {
               </li> */}
             </ul>
           </div>
+
+          <div>
+            <p className="font-semibold tracking-wide text-gray-300">
+              Bölümler
+            </p>
+            <ul className="mt-2 space-y-2">
+              <li>
+                <a
+                  href="/motor"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Motor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/mekanik"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Mekanik Aksam
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/kaporta"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Kaporta
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/boya"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Boya
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/elektrik"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Oto Elektrik
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <p className="font-semibold tracking-wide text-gray-300">
+              Hizmetler
+            </p>
+            <ul className="mt-2 space-y-2">
+              <li>
+                <a
+                  href="/periodic"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                 Peryodik Bakım
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/maintenance"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Onarım
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/accident"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Kaza Sonrası İşlemler
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/insurance"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Sigorta
+                </a>
+              </li>
+            </ul>
+          </div>
+          
           <div>
             <p className="font-semibold tracking-wide text-gray-300">
 							İletişim
