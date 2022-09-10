@@ -79,14 +79,22 @@ function Footer() {
                   Hakkımızda
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
-                  href="/"
+                  href="/privacy"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Projects
+                  Gizlilik
                 </a>
-              </li> */}
+              </li>
+              <li>
+                <a
+                  href="/terms"
+                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  Şartlar
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -179,9 +187,11 @@ function Footer() {
           </div>
           
           <div>
+            <a href="/contact">
             <p className="font-semibold tracking-wide text-gray-300">
 							İletişim
-							</p>
+						</p>
+            </a>
             <ul className="mt-2 space-y-2">
               <li>
 								<p className="mr-1 text-gray-300">Tel:</p>

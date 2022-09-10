@@ -29,6 +29,9 @@ import Record from "../pages/Record";
 import Invoice from "../pages/Invoice";
 import Contact from "../pages/contact/Contact";
 
+import Privacy from "../pages/privacy/Privacy";
+import Terms from "../pages/privacy/Terms";
+
 import Login from "../pages/Login";
 
 // import {Login, Register } from "../pages/LoginRegister";
@@ -67,6 +70,9 @@ function AppRouter() {
         <Route path="/invoice" element={<Invoice /> } />
         <Route path="/record" element={<Record /> } />
         <Route path="/contact" element={<Contact /> } />
+
+        <Route path="/privacy" element={<Privacy /> } />
+        <Route path="/terms" element={<Terms /> } />
         
         <Route path="/login" element={<Login /> } />
       
