@@ -1,6 +1,6 @@
 import React from 'react'
-import MotorPic from "../../assets/Motor.jpg"
-import MotorPic2 from "../../assets/Motor2.jpg"
+import CrashPic from "../../assets/Crash.jpg"
+import CrashPic2 from "../../assets/Crash2.jpg"
 
 function Accident() {
 	return (
@@ -9,7 +9,7 @@ function Accident() {
         <div className="container mx-auto flex px-3 py-12 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Kaza Sonrası Onarım <br className="hidden lg:inline-block" />
+              Kaza Sonrası İşlemler <br className="hidden lg:inline-block" />
             </h1>
             <p className="mb-8 leading-relaxed">
               Kaza sonrasında aracınız emin ellerde. Profesyonel ekibimiz ile aracınızın onarımlarını orjinal yedek parça kullanarak uygun fiyata yapmaktayız.
@@ -27,7 +27,7 @@ function Accident() {
             <img
               className="object-cover object-center rounded"
               alt="Motor"
-              src={MotorPic}
+              src={CrashPic}
             />
           </div>
         </div>
@@ -35,10 +35,10 @@ function Accident() {
 			<section class="text-gray-600 body-font"> */}
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded" alt="hero" src={MotorPic2}/>
+      <img class="object-cover object-center rounded" alt="hero" src={CrashPic2}/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Kaza Sonrası Onarım {' '}
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Kaza Sonrası İşlemler {' '}
         <br class="hidden lg:inline-block"/>
       </h1>
       <p class="mb-8 leading-relaxed">Düzenli motor bakımı yapılan araçların uzun yıllar boyunca en az performans kaybı ile çalıştıklarını biliyor muydunuz? </p>
