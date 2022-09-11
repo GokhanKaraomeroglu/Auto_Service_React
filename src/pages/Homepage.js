@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Carousel from '../components/Carousel'
+// import Carousel from '../components/Carousel'
+import Slider from '../components/Slider'
 import AboutUsSection from '../components/AboutUsSection'
 import SectionsCards from '../components/SectionsCards'
 import ServicesCards from '../components/ServicesCards'
@@ -11,7 +12,8 @@ import Testimonial from '../components/Testimonial'
 function Homepage () {
 	return (
 	<div>
-		<Carousel/>	
+		{/* <Carousel/> */}
+		<Slider/>
 		<AboutUsSection/>	
 		<SectionsCards/>	
 		<ServicesCards/>
