@@ -2,16 +2,14 @@ import React from 'react'
 
 function Invoice() {
 	return (
-
-
 <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
 <div className="pb-4 bg-white dark:bg-gray-900">
-        <label for="table-search" className="sr-only">Search</label>
+        <label for="table-search" className="sr-only">Ara</label>
         <div className="relative mt-1">
             <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                 <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </div>
-            <input type="text" id="table-search" className="block p-2 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search for items"/>
+            <input type="text" id="table-search" className="block p-2 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Ürün veya Hizmet Ara"/>
         </div>
     </div>
     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -24,28 +22,28 @@ function Invoice() {
                     </div>
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Product name
+                    Araç
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Color
+                    Renk
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Category
+                    Plaka
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Accesories
+                    Sahibi
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Available
+                    Tarih
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Price
+                    İşlem
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Weight
+                    Fiyat
                 </th>
                 <th scope="col" className="py-3 px-6">
-                    Action
+                    Faaliyet
                 </th>
             </tr>
         </thead>
@@ -61,26 +59,26 @@ function Invoice() {
                     Apple MacBook Pro 17"
                 </th>
                 <td className="py-4 px-6">
-                    Sliver
+                    Gümüş
                 </td>
                 <td className="py-4 px-6">
                     Laptop
                 </td>
                 <td className="py-4 px-6">
-                    Yes
+                    İyi
                 </td>
                 <td className="py-4 px-6">
-                    Yes
+                    1
                 </td>
                 <td className="py-4 px-6">
                     $2999
                 </td>
                 <td className="py-4 px-6">
-                    3.0 lb.
+                    $2999
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -112,8 +110,8 @@ function Invoice() {
                     1.0 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -145,8 +143,8 @@ function Invoice() {
                     0.2 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -178,8 +176,8 @@ function Invoice() {
                     0.12 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -211,8 +209,8 @@ function Invoice() {
                     7.0 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -244,8 +242,8 @@ function Invoice() {
                     38 g
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -277,8 +275,8 @@ function Invoice() {
                     1.3 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -310,8 +308,8 @@ function Invoice() {
                     453 g
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -343,8 +341,8 @@ function Invoice() {
                     1.78 lb.
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -376,8 +374,8 @@ function Invoice() {
                     53 g
                 </td>
                 <td className="flex items-center py-4 px-6 space-x-3">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Düzenle</a>
+                    <a href="#" className="font-medium text-red-600 dark:text-red-500 hover:underline">Sil</a>
                 </td>
             </tr>
         </tbody>
