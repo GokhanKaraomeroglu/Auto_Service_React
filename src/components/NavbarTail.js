@@ -33,9 +33,9 @@ const aboutUs = [
     icon: Cog8ToothIcon,
   },
   { name: 'Teknik Ekip', 
-  description: "Alanında uzaman teknik ekibimiz ile hizmetinizdeyiz.", 
-  href: '/teknik', 
-  icon: WrenchIcon },
+    description: "Alanında uzaman teknik ekibimiz ile hizmetinizdeyiz.", 
+    href: '/teknik', 
+    icon: WrenchIcon },
   {
     name: 'Hakkımızda',
     description: "Tecrübeli yönetim kadromuz ve teknik ekibimizle hizmetinizdeyiz.",
@@ -56,7 +56,10 @@ const solutions = [
     href: '/mekanik',
     icon: WrenchIcon,
   },
-  { name: 'Kaporta', description: "Uzman kaportacılarımızın elinde aracınız güvende.", href: '/kaporta', icon: ShieldCheckIcon },
+  { name: 'Kaporta', 
+    description: "Uzman kaportacılarımızın elinde aracınız güvende.", 
+    href: '/kaporta', 
+    icon: ShieldCheckIcon },
   {
     name: 'Boya',
     description: "Aracınızın güzel görünmesindeki en önemli faktör.",
@@ -71,8 +74,14 @@ const solutions = [
   },
 ]
 const callsToAction = [
-  { name: 'Servis Kaydı', href: '#', icon: PlayIcon },
-  { name: 'Hemen Arayın', href: '#', icon: PhoneIcon },
+  { name: 'Servis Kaydı', 
+    href: '#', 
+    icon: PlayIcon 
+  },
+  { name: 'Hemen Arayın', 
+    href: '#', 
+    icon: PhoneIcon 
+  },
 ]
 const resources = [
   {
@@ -93,7 +102,10 @@ const resources = [
     href: '/accident',
     icon: CalendarIcon,
   },
-  { name: 'Sigorta', description: 'Saygın tüm sigortalar ile anlaşmalı servis hizmeti.', href: '/insurance', icon: ShieldCheckIcon },
+  { name: 'Sigorta', 
+    description: 'Saygın tüm sigortalar ile anlaşmalı servis hizmeti.', 
+    href: '/insurance', 
+    icon: ShieldCheckIcon },
 ]
 const recentPosts = [
   { id: 1, name: 'Değer katan onarım.', href: '#' },
