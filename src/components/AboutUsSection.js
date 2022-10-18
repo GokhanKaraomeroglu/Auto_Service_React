@@ -29,6 +29,10 @@ function AboutUsSection() {
               kaliteli yedek parçalar ve en hassas ellerden çıkan işcilik
               kullanılmaktaır.
             </p>
+            <p>
+              {" "}
+              <strong>Önemli Oto Servisi</strong>araçlarınızın bakım ve onarımı için kaliteli ve ekonomik çözümler sunar.
+            </p>
             <br />
             <div className="flex justify-center">
               <a href="/unalusta">
