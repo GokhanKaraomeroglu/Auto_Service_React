@@ -34,7 +34,7 @@ function ServicesCards() {
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://picsum.photos/id/1072/400/300" alt="Kaza Sonrası"/>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Önemli Oto</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kaza Sonrası İşlemler</h2>
-          <p className="leading-relaxed text-base">Kaza sonrası araçlarınız emin ellerde. Ama siz yinede kaza yapmayın.</p>
+          <p className="leading-relaxed text-base">Kaza sonrası araçlarınız emin ellerde. Siz yinede kaza yapmayın...</p>
           <br/>
         </div>
       </div>
@@ -43,7 +43,7 @@ function ServicesCards() {
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://picsum.photos/id/605/400/300" alt="Sigorta"/>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Önemli Oto</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Sigorta</h2>
-          <p className="leading-relaxed text-base">Saygın tüm sigortalar ile anlaşmalı servis hizmetimiz bulunmaktadır.</p>
+          <p className="leading-relaxed text-base">Saygın tüm sigortalar ile anlaşmalı onarım hizmetimiz bulunmaktadır.</p>
           <br/>
         </div>
       </div>
