@@ -5,7 +5,7 @@ function Privacy() {
 		<section class="px-4 py-24 mx-auto max-w-7xl">
   <div class="mb-24 text-left md:text-center">
     <h1 class="mb-4 text-4xl font-bold leading-tight text-gray-900 md:text-5xl">Privacy Policy</h1>
-    <p class="mb-5 text-base text-gray-500 md:text-lg">Last updated: 10th Sep 2022</p>
+    <p class="mb-5 text-base text-gray-500 md:text-lg">Last updated: 01st Nov 2022</p>
   </div>
   <div class="mx-auto prose">
     <h2 id="1legalnotices">1. Legal Notices</h2>
