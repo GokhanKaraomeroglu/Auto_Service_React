@@ -1,11 +1,11 @@
-import React from 'react'
-import './Carousel.css'
+import React from "react";
+import "./Carousel.css";
 
 const images = [
-	'https://picsum.photos/id/1071/1200/300', 
-	'https://picsum.photos/id/1072/1200/300', 
-	'https://picsum.photos/id/1070/1200/300'
-]
+  "https://picsum.photos/id/1071/1200/300",
+  "https://picsum.photos/id/1072/1200/300",
+  "https://picsum.photos/id/1070/1200/300",
+];
 
 function Carousel() {
   // We will start by storing the index of the current image in the state.
@@ -19,7 +19,7 @@ function Carousel() {
     return acc;
   }, {});
 
-  const scrollToImage = i => {
+  const scrollToImage = (i) => {
     // First let's set the index of the image we want to see next
     setCurrentImage(i);
     // Now, this is where the magic happens. We 'tagged' each one of the images with a ref,
@@ -28,11 +28,11 @@ function Carousel() {
     // image's ref in 'refs' array above.
     refs[i].current.scrollIntoView({
       //     Defines the transition animation.
-      behavior: 'smooth',
+      behavior: "smooth",
       //      Defines vertical alignment.
-      block: 'nearest',
+      block: "nearest",
       //      Defines horizontal alignment.
-      inline: 'start',
+      inline: "start",
     });
   };
 
@@ -59,48 +59,55 @@ function Carousel() {
 
   // Tailwind styles. Most importantly notice position absolute, this will sit relative to the carousel's outer div.
   const arrowStyle =
-    'absolute text-white text-2xl z-10 bg-black h-10 w-10 rounded-full opacity-75 flex items-center justify-center';
+    "absolute text-white text-2xl z-10 bg-black h-10 w-10 rounded-full opacity-75 flex items-center justify-center";
 
   // Let's create dynamic buttons. It can be either left or right. Using
   // isLeft boolean we can determine which side we'll be rendering our button
   // as well as change its position and content.
-  const sliderControl = isLeft => (
+  const sliderControl = (isLeft) => (
     <button
       type="button"
       onClick={isLeft ? previousImage : nextImage}
-      className={`${arrowStyle} ${isLeft ? 'left-2' : 'right-2'}`}
-      style={{ top: '40%' }}
+      className={`${arrowStyle} ${isLeft ? "left-2" : "right-2"}`}
+      style={{ top: "40%" }}
     >
-      <span role="img" aria-label={`Arrow ${isLeft ? 'left' : 'right'}`}>
-        {isLeft ? '◀' : '▶'}
+      <span role="img" aria-label={`Arrow ${isLeft ? "left" : "right"}`}>
+        {isLeft ? "◀" : "▶"}
       </span>
     </button>
   );
 
   return (
-  // Images are placed using inline flex. We then wrap an image in a div
-  // with flex-shrink-0 to stop it from 'shrinking' to fit the outer div.
-  // Finally the image itself will be 100% of a parent div. Outer div is
-  // set with position relative, so we can place our cotrol buttons using
-  // absolute positioning on each side of the image.
-  <section className="text-gray-600 body-font">
-    <div className="container mx-auto flex px-2 py-12 md:flex-row flex-col items-center">
-    <div className="p-2 flex justify-center w-screen items-center ">
-      <div className="relative w-full">
-        <div className="carousel">
-          {sliderControl(true)}
-          {images.map((img, i) => (
-            <div className="w-full flex-shrink-0" key={img} ref={refs[i]}>
-							<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500 flex justify-center"> Önemli Oto Servisi </h1>
-              <img src={img} className="w-full object-contain rounded" alt='Önemli Oto Servisi' />
+    // Images are placed using inline flex. We then wrap an image in a div
+    // with flex-shrink-0 to stop it from 'shrinking' to fit the outer div.
+    // Finally the image itself will be 100% of a parent div. Outer div is
+    // set with position relative, so we can place our cotrol buttons using
+    // absolute positioning on each side of the image.
+    <section className="text-gray-600 body-font">
+      <div className="container mx-auto flex px-2 py-12 md:flex-row flex-col items-center">
+        <div className="p-2 flex justify-center w-screen items-center ">
+          <div className="relative w-full">
+            <div className="carousel">
+              {sliderControl(true)}
+              {images.map((img, i) => (
+                <div className="w-full flex-shrink-0" key={img} ref={refs[i]}>
+                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500 flex justify-center">
+                    {" "}
+                    Önemli Oto Servisi{" "}
+                  </h1>
+                  <img
+                    src={img}
+                    className="w-full object-contain rounded"
+                    alt="Önemli Oto Servisi"
+                  />
+                </div>
+              ))}
+              {sliderControl()}
             </div>
-          ))}
-          {sliderControl()}
+          </div>
         </div>
       </div>
-    </div>
-    </div>
     </section>
   );
-};
-export default Carousel
+}
+export default Carousel;

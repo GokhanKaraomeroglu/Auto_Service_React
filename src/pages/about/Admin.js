@@ -13,7 +13,9 @@ function Admin() {
             Önemli Oto Yönetim Kadrosu
           </h2>
           <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
-					Önemli Oto Servisi, yalnızca ödüllü ustalarıyla değil, aynı zamanda iş dünyasının en parlak beyinlerinden ve en deneyimli yöneticilerden oluşan çalışanlarının yetenekleriyle de gurur duymaktadır.
+            Önemli Oto Servisi, yalnızca ödüllü ustalarıyla değil, aynı zamanda
+            iş dünyasının en parlak beyinlerinden ve en deneyimli yöneticilerden
+            oluşan çalışanlarının yetenekleriyle de gurur duymaktadır.
           </p>
         </div>
         <div className="grid gap-24 md:gap-12 md:grid-cols-3">
@@ -88,7 +90,9 @@ function Admin() {
             </div>
             <div className="pt-4">
               <h4 className="text-2xl">Mustafa Önemli</h4>
-              <span className="block text-sm text-gray-500">Yönetici Yardımcısı</span>
+              <span className="block text-sm text-gray-500">
+                Yönetici Yardımcısı
+              </span>
             </div>
             <div className="flex justify-center space-x-4 text-gray-500">
               <a href="#" target="_blank" aria-label="facebook">
@@ -150,7 +154,9 @@ function Admin() {
             </div>
             <div className="pt-4">
               <h4 className="text-2xl">Hasan Önemli</h4>
-              <span className="block text-sm text-gray-500">Halkla İlişkiler</span>
+              <span className="block text-sm text-gray-500">
+                Halkla İlişkiler
+              </span>
             </div>
             <div className="flex justify-center space-x-4 text-gray-500">
               <a href="#" target="_blank" aria-label="facebook">
