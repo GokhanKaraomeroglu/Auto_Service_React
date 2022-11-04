@@ -9,7 +9,7 @@ function Pictures() {
             Önemli Oto Servisi'den Fotoğraflar
           </h1>
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Önemli Oto Servisi'nin özenli, titiz ve becerikli ustaları,
+            <e> Önemli Oto Servisi</e>'nin özenli, titiz ve becerikli ustaları,
             profesyonel bakış açılarıyla araçalrınıza mucizevi dokunuşlar
             yapmaktadırlar. Her anları tecrübe ve yeteneklerini biraz daha
             ortaya çıkarmaktadır.
