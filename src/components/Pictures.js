@@ -12,7 +12,7 @@ function Pictures() {
             <span> Önemli Oto Servisi</span>'nin özenli, titiz ve becerikli ustaları,
             profesyonel bakış açılarıyla araçalrınıza mucizevi dokunuşlar
             yapmaktadırlar. Her anları tecrübe ve yeteneklerini biraz daha
-            ortaya çıkarmaktadır.
+            ortaya çıkarmaktadır. Önemli Oto Servisi
           </p>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
