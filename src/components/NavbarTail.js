@@ -112,8 +112,8 @@ const resources = [
 ];
 const recentPosts = [
   { id: 1, name: "Değer katan onarım.", href: "#" },
-  { id: 2, name: "Koşulsuz müşteri memnuniyeti.", href: "#" },
-  { id: 3, name: "Yıllardır devam eden tecrübe.", href: "#" },
+  // { id: 2, name: "Koşulsuz müşteri memnuniyeti.", href: "#" },
+  // { id: 3, name: "Yıllardır devam eden tecrübe.", href: "#" },
 ];
 
 function classNames(...classes) {
