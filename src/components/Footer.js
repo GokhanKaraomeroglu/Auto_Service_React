@@ -34,7 +34,7 @@ function Footer() {
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-gray-300">
                 Yarım asırlık tecrübesini müşteri memnuniyeti için kullanan
-                güvenilir oto servisi.
+                güvenilir oto servisi. 
               </p>
               <p className="mt-4 text-sm text-gray-300">
                 Araçalarınızın bakım, onarım ve kaza sonrası işlemleri

@@ -79,7 +79,7 @@ const solutions = [
   },
 ];
 const callsToAction = [
-  { name: "Servis Kaydı", href: "#", icon: PlayIcon },
+  // { name: "Servis Kaydı", href: "#", icon: PlayIcon },
   { name: "Hemen Arayın", href: "#", icon: PhoneIcon },
 ];
 const resources = [
