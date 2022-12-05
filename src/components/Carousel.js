@@ -100,6 +100,10 @@ function Carousel() {
                     className="w-full object-contain rounded"
                     alt="Önemli Oto Servisi"
                   />
+                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500 flex justify-center">
+                    {" "}
+                    Güç Katar.{" "}
+                  </h1>
                 </div>
               ))}
               {sliderControl()}
